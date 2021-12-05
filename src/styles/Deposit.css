@@ -1,0 +1,91 @@
+#deposit {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#deposit #deposit-container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#deposit #deposit-container #deposit-container-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 500px;
+  border-radius: 5px;
+  padding: 40px;
+  -webkit-box-shadow: 0px 15px 20px -6px rgba(82, 82, 82, 0.75);
+          box-shadow: 0px 15px 20px -6px rgba(82, 82, 82, 0.75);
+}
+
+#deposit #deposit-container #deposit-container-two h1 {
+  text-align: center;
+}
+
+#deposit #deposit-container #deposit-container-two #deposit-wallet {
+  margin-bottom: 50px;
+  padding: 20px;
+  width: 50%;
+  border: none;
+  font-size: 16px;
+}
+
+#deposit #deposit-container #deposit-container-two #deposit-wallet:focus {
+  width: 90%;
+  border-bottom: 3px solid #753188c2;
+  border-width: 50%;
+  outline: none;
+  -webkit-transition: width .100s;
+  transition: width .100s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+#deposit #deposit-container #deposit-container-two #deposit-selectCurrency {
+  padding: 20px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+#deposit #deposit-container #deposit-container-two #deposit-button {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  background-color: #753188;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 2px;
+}
+/*# sourceMappingURL=Deposit.css.map */

@@ -1,0 +1,36 @@
+.header {
+    padding: 5px;
+    background-color: #753188;
+    height: 50px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-icon{
+    font-size: 25px;
+    margin: 20px;
+}
+
+.header-title {
+    margin-left: -15px;
+    font-size: 25px;
+}
+
+.header-signInLink{
+    margin-left: -7px;
+    margin-right: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+p {
+    font-weight: 200;
+}

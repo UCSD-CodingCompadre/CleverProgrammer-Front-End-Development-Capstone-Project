@@ -1,0 +1,130 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #D3BCCC;
+}
+
+.main #main-container {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D3BCCC;
+  height: 90%;
+  width: 66%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #E8D7F1;
+  -webkit-box-shadow: 2px 2px 2px 3px indigo;
+          box-shadow: 2px 2px 2px 3px indigo;
+}
+
+.main #main-container #logo-container {
+  height: 10%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.main #main-container #logo-container #logo-text {
+  color: #744e68;
+}
+
+.main #main-container #fields {
+  height: 40%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.main #main-container #fields #field-1, .main #main-container #fields #field-2 {
+  height: 25px;
+  width: 30%;
+}
+
+.main #main-container #fields #field-2 {
+  margin-top: 5px;
+}
+
+.main #main-container #fields #signup-button {
+  margin-top: 8px;
+  background-color: indigo;
+  border: 1px solid #300152;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px 20px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #580296;
+}
+
+.main #main-container #fields #signup-button:hover {
+  background-color: #550092;
+}
+
+.main #main-container #fields #signup-button:active {
+  position: relative;
+  top: 1px;
+}
+
+.main #main-container #image-wrapper {
+  height: 50%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main #main-container #image-wrapper #hero-image {
+  margin-bottom: 40px;
+  height: 275px;
+  width: 60%;
+}
+/*# sourceMappingURL=Signup.css.map */

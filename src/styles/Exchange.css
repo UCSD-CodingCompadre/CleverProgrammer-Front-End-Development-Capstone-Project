@@ -1,0 +1,96 @@
+#transfer {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#transfer #transfer-container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#transfer #transfer-container #transfer-container-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 500px;
+  border-radius: 5px;
+  padding: 40px;
+  -webkit-box-shadow: 0px 15px 20px -6px rgba(82, 82, 82, 0.75);
+          box-shadow: 0px 15px 20px -6px rgba(82, 82, 82, 0.75);
+}
+
+#transfer #transfer-container #transfer-container-two h1 {
+  text-align: center;
+}
+
+#transfer #transfer-container #transfer-container-two #transfer-wallet {
+  padding: 20px;
+  width: 50%;
+  border: none;
+  font-size: 16px;
+}
+
+#transfer #transfer-container #transfer-container-two #transfer-wallet:focus {
+  width: 90%;
+  border-bottom: 3px solid #753188c2;
+  border-width: 50%;
+  outline: none;
+  -webkit-transition: width .100s;
+  transition: width .100s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+#transfer #transfer-container #transfer-container-two #transfer-rate {
+  margin-top: 30px;
+}
+
+#transfer #transfer-container #transfer-container-two #transfer-selectCurrency {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+#transfer #transfer-container #transfer-container-two #transfer-button {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  background-color: #753188;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 2px;
+}
+/*# sourceMappingURL=Exchange.css.map */
