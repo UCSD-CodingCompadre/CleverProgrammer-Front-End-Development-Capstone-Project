@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Login from '../components/Login'
 import {auth} from "../utils/firebase"
 import { signInWithEmailAndPassword } from "firebase/auth"
+import '../styles/Login.css'
 
 // Login component
 // Contains the sign in page of the web application. This connects to the back
