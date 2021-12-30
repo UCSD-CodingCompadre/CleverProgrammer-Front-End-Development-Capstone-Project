@@ -2,13 +2,15 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth"
 import { getFirestore } from 'firebase/firestore'
 
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBLsZ8cI7iYsWHYeXcVPkdKibKHOWrj4qQ",
-  authDomain: "capstone-5b03c.firebaseapp.com",
-  projectId: "capstone-5b03c",
-  storageBucket: "capstone-5b03c.appspot.com",
-  messagingSenderId: "405356690926",
-  appId: "1:405356690926:web:855ed425afcc806f6422ff"
+  apiKey: "AIzaSyDzn4XPb8BWEmXmDS0tUTcBUmwjhuEtDwE",
+  authDomain: "capstone-a82e0.firebaseapp.com",
+  projectId: "capstone-a82e0",
+  storageBucket: "capstone-a82e0.appspot.com",
+  messagingSenderId: "209943927355",
+  appId: "1:209943927355:web:01fb0b54e807ff188c9a1e",
+  measurementId: "G-ELT9JZWPJN"
 };
 
 // Initialize Firebase

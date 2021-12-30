@@ -11,9 +11,9 @@ import db from "../utils/firebase"
 // Contains the html that creates the layout of what the user
 // sees when they are going to deposit. It also contains
 // Javascript functionality that connects the backend which is 
-// Firebase, moveover the users authenticated Firestore. In addition
+// Firebase, moreover the users authenticated Firestore. In addition
 // we use Javascript to create a function that will handle the whole
-// deposit action according to our flow diargram then redirects the user
+// deposit action according to our flow diagram then redirects the user
 // back to the dashboard component.
 function Deposit() 
 {
@@ -37,14 +37,14 @@ function Deposit()
     // to the dashboard so the user can see the update in the frontend
     const handleDesposit = async () => 
     {
-        // Check if the user doesn't update ther useRefs from empty values
+        // Check if the user doesn't update there useRefs from empty values
         if(currencyRef.current.value === "" || depositRef.current.value === "")
         {
             alert("Make sure to enter a deposit amount and select a currency");
             return;
         }
 
-        // Hold a refrence to the user's document in the Firestore
+        // Hold a reference to the user's document in the Firestore
         const docRef = doc(db, "users",`${auth.currentUser.uid}`);
         // Wait and hold the user's document from its reference
         const docSnap = await getDoc(docRef);
@@ -88,7 +88,7 @@ function Deposit()
                         <option value="JOD">Jordanian Dinar</option>
                         <option value="CNY">Chinese Yuan</option>
                         <option value="MXN">Mexican Peso</option>
-                        <option value="JPY">Japenese Yen</option>
+                        <option value="JPY">Japanese Yen</option>
                     </select>
 
                     {/* Button that handles the deposit */}
