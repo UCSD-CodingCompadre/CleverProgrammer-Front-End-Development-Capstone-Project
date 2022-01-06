@@ -61,7 +61,7 @@ function Dashboard()
                     { keys && keys.map((item) => 
                         {
                             // Only create a currency component if the user has money for that currency
-                            if(item[1] !== 0)
+                            if(item[1] !== 0 && item[1] !== "0.00")
                             {
                                 return <Currency currencyName={item[0]} currencyValue={item[1]} />
                             } 

@@ -160,7 +160,7 @@ function Exchange() {
                         <option value="JOD">Jordanian Dinar</option>
                         <option value="CNY">Chinese Yuan</option>
                         <option value="MXN">Mexican Peso</option>
-                        <option value="JPY">Japenese Yen</option>
+                        <option value="JPY">Japanese Yen</option>
                     </select>                   
 
                     {/* Button that handles the exchange */}
